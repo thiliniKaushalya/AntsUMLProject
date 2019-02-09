@@ -1,0 +1,5 @@
+@antsuml
+by Ants UML Diagram designers
+Actors and usecases
+
+user--->( Firstly application  opened --->:lost)---> device--->( gets access--->:lost)---> webcamwebcam--->( captures image--->:lost)---> userdevice--->( uses algorithms to detect face and predict mood--->:lost)---> device--->( requests database for dictionary of possible moods--->:lost)---> database--->( mood  retrieved--->:found)---> database--->( mood  dplayed--->:found)---> user--->( music  requested--->:found)---> database--->( playlt  generated and finally shown--->:found)---> user
